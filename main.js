@@ -7,6 +7,7 @@ function apagarDIsplay () {
 for (contador = 0; contador < teclas.length; contador++) {
     let tecla = teclas[contador];
     let display = document.querySelector('.display');
+
     tecla.onclick = function () {
         if (tecla.value === 'C') {
             apagarDIsplay();
@@ -33,4 +34,5 @@ for (contador = 0; contador < teclas.length; contador++) {
             }
         }
     }
+
 }
