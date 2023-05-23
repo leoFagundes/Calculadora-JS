@@ -39,7 +39,8 @@ main {
 .title {
     margin-top: 3px;
     color: var(--branco);
-    text-shadow: 1px 1px 2px rgba(118, 192, 84, 0.5);
+    text-shadow: 1px 1px 5px rgba(115, 219, 115, 0.74);
+
 }
 
 .container {
@@ -53,10 +54,14 @@ main {
 }
 
 .display {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 92.5%;
     height: 80px;
     background-color: var(--branco);
     border-radius: 4px;
+    padding-right: 5px;
 }
 
 .area-buttons {
@@ -85,6 +90,7 @@ main {
     justify-content: space-around;
     height: 300px;
     width: 70%;
+    
 }
 
 .area-right {
@@ -92,7 +98,18 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 30%;
-    margin-left: -8px;
+    height: 290px;
+    width: 65px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+
+.operador {
+    height: 46px;
+    border-radius: 50px;
+}
+
+.marked {
+    font-size: 30px;
 }
