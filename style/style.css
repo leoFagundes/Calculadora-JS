@@ -28,12 +28,8 @@ main {
     background-color: var(--preto);
     border-radius: 20px;
     box-shadow:
-        54.4px 39.5px 0.8px rgba(0, 0, 0, 0.042),
-        72.6px 52.8px 3.3px rgba(0, 0, 0, 0.069),
-        87.6px 63.7px 8.4px rgba(0, 0, 0, 0.083),
-        105px 76.3px 17.6px rgba(0, 0, 0, 0.088),
-        131.5px 95.6px 35.1px rgba(0, 0, 0, 0.083),
-        205px 149px 80px rgba(0, 0, 0, 0.07);
+    7.6px 12.1px 10px rgba(0, 0, 0, 0.035),
+    61px 97px 80px rgba(0, 0, 0, 0.07);
 }
 
 .title {
